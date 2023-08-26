@@ -4,6 +4,10 @@ public class StringTool {
         return str.toUpperCase();
     }
 
+    public static String lower(String str) {
+        return str.toLowerCase();
+    }
+
     public static void main(String[] args) {
 
     }
