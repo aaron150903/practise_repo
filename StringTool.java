@@ -6,6 +6,8 @@ public class StringTool {
 
     public static String toTitleCase(String input) {
         StringBuilder titleCase = new StringBuilder(input.length());
+        //adding comment
+        //adding another comment
         boolean nextTitleCase = true;
 
         for (char c : input.toCharArray()) {
